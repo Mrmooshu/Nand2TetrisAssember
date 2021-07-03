@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Nand2TetrisAssember": {
+      "commandName": "Project",
+      "commandLineArgs": "max/MaxL.asm"
+    }
+  }
+}

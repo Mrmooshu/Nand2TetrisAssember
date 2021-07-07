@@ -48,7 +48,7 @@ namespace Nand2TetrisAssember
             }
             else if (commandType() == types.L_COMMAND)
             {
-                return currentCommand.Substring(1, currentCommand.Length - 1);
+                return currentCommand.Substring(1, currentCommand.IndexOf(')')-1);
             }
             else
             {
